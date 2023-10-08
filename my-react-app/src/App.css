@@ -8,6 +8,9 @@
   height: 40vmin;
   pointer-events: none;
   align-items: end;
+  position: absolute;
+  margin-left: 78vw;
+  margin-top: -30vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,12 +23,15 @@
   background-color: #0055ff;
   width: 100vw;
   height: 30vh;
-  display: flex;
-  flex-direction: initial;
+  display:inline-block;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-navlist{
+  display: inline-block;
 }
 
 body{
@@ -35,7 +41,16 @@ body{
 }
 
 .App-link {
-  color: #61dafb;
+  padding: 2 rem;
+  color: #f10000;
+  text-decoration: none;
+  list-style-type: none;
+  gap:1rem;
+}
+
+.App-link:hover{
+  color:#282c34;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
