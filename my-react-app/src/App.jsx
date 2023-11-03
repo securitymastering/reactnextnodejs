@@ -1,9 +1,10 @@
-import Nav from "./Nav";
-import "./Nav.css"
+import './App.css'
+import './index.css'
 
 export default function App(){
-  return (<div>
-    <Nav />
+  return (
+  <div>
+    <h1>Olá Mundo!</h1>
   </div>
   )
 }
