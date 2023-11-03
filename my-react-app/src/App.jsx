@@ -1,6 +1,11 @@
+import Nav from "./Nav";
+import "./Nav.css"
 
 export default function App(){
-  return <h1>Olá Mundo!</h1>
+  return (<div>
+    <Nav />
+  </div>
+  )
 }
 
 
